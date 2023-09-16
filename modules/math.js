@@ -1,4 +1,4 @@
-const math = {}
+const Math = {}
     function add(a,b){
         return a + b;
     }
@@ -10,7 +10,7 @@ const math = {}
     }
     function divide(a,b){
         if (b ==0){
-            return "ERROR NO SE PUEDE DIVIDIR ENTRE 0".bgRed
+            return "ERROR NO SE PUEDE DIVIDIR ENTRE 0".red
         }else{
             return a / b;
             }
